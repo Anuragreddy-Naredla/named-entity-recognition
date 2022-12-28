@@ -10,5 +10,9 @@ Named entity recognition technology is an indispensable part of many natural lan
 Named entities are the research subjects for named entity recognition. Generally, named entities include 3 categories (entity, time, and number) and 7 categories (person, place, institution, time, date, currency, and percentage). Judging whether a named entity is correctly identified includes two aspects: whether the boundary of the entity is correct; and whether the type of the entity is correctly labeled.
 
 The main types of errors include correct text, which may be of the wrong type; conversely, text boundaries are incorrect, and the main entity words and part-of-speech tokens it contains may be correct.
-# WORKFLOW DIAGRAM
-image.png
+
+# TESTING IN LOCAL/API
+To do the test testing we need to run the clientApp.py and after that web server will start at http://0.0.0.0:5000/
+
+# CONCLUSION
+Here we successfully performed Named Entity Recognition on the given dataset.
